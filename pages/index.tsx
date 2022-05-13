@@ -6,7 +6,10 @@ import styles from "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
     <>
-      <meta property="og:image" content="../public/dhs_liem.png"></meta>
+      <meta
+        property="og:image"
+        content="https://pbs.twimg.com/tweet_video_thumb/Dj9KaU6UcAASwxI.jpg"
+      ></meta>
       <div className={styles.container}>
         <Head>
           <title>Hydro Web</title>
