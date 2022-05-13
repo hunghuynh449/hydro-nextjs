@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <>
       <meta
         property="og:image"
-        content="https://pbs.twimg.com/tweet_video_thumb/Dj9KaU6UcAASwxI.jpg"
+        content="https://www.pngkit.com/png/detail/186-1867486_pandablindfold-discord-emoji-admiral-bahroo-emotes.png"
       ></meta>
       <div className={styles.container}>
         <Head>
