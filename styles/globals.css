@@ -6,6 +6,21 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +28,46 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.primary-color {
+  color: #0070f3;
+}
+
+.facebook {
+  color: #4267b2;
+}
+.instagram {
+  color: #e95950;
+}
+.tiktok {
+  color: #000;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  cursor: pointer;
+  font-size: 4rem;
+  width: 50vw;
+  padding: 0.8rem 2rem;
+  border-left: 3px solid transparent;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.title:hover {
+  border-left: 3px solid red;
+  background-color: azure;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+a {
+  color: #000;
 }
