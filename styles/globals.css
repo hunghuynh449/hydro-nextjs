@@ -47,13 +47,18 @@ a {
 .flex-box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.box-logo{
+  width: 100px;
 }
 
 .title {
   cursor: pointer;
   font-size: 4rem;
-  width: 50vw;
+  width: 100%;
   padding: 0.8rem 2rem;
   border-left: 3px solid transparent;
   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
