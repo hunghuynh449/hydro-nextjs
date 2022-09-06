@@ -58,6 +58,7 @@ const Home: NextPage = () => {
             <span>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/tuongnguyen1209/poly-career-front"
               >
                 Github Project Frontend
@@ -106,6 +107,7 @@ const Home: NextPage = () => {
             <span>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.figma.com/file/gx2tfbvNRpvjCKtPiJGDDf/Untitled?node-id=0%3A1"
               >
                 Figma Desgin
@@ -166,8 +168,8 @@ const Home: NextPage = () => {
                     y2="32"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#4E8DF5" />
-                    <stop offset="1" stop-color="#3D6ACD" />
+                    <stop stopColor="#4E8DF5" />
+                    <stop offset="1" stopColor="#3D6ACD" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -176,6 +178,7 @@ const Home: NextPage = () => {
             <span>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/1ZxwnmNFcCxLohX0-Suhr775-RdUBdBaEU2ZbWo-osoo/edit?usp=sharing"
               >
                 Docs
@@ -191,7 +194,7 @@ const Home: NextPage = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_62_697)">
+                <g clipPath="url(#clip0_62_697)">
                   <path
                     d="M144.822 105.322L169.779 133.849L203.341 155.294L209.179 105.502L203.341 56.833L169.136 75.672L144.822 105.322Z"
                     fill="#00832D"
@@ -232,6 +235,7 @@ const Home: NextPage = () => {
             <span>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://meet.google.com/vtq-kzsd-efs?authuser=1"
               >
                 Google Meet
