@@ -40,6 +40,7 @@ const ManagerPage: NextPage = () => {
         <tbody>
           {list?.map((e) => (
             <tr key={e.id}>
+              {/* key ne */}
               <td>{e.id}</td>
               <td>{e.name}</td>
               <td>{e.url}</td>
