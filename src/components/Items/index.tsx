@@ -168,7 +168,7 @@ const ItemCpn: React.FC<Props> = ({ item }) => {
     <>
       <h3 className="flex-box title">
         <span className="flex-box box-logo mr-2">
-          <SwitchIcon url={item.url} />
+       {item?.img ?<img src={item.img} style={{with:"60px"}} /> : <SwitchIcon url={item.url} />}
         </span>
         <span>
           <a target="_blank" rel="noreferrer" href={item.url}>
